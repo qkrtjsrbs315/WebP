@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="question" id="question"> <br>
+        <input type="submit" value="검색" onclick="location.href='http://127.0.0.1:8000/result'">
+    </form>
+</body>
+</html>
+<!--http://127.0.0.1:8000/search-->
